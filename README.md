@@ -67,9 +67,7 @@ THEN that will be shown on the page, and added to their transaction history when
 
 * Check out these related links:
 
-  * the URL to the deployed application:
-* Deploy your application with [Heroku and MongoDB Atlas.](../04-Important/MongoAtlas-Deploy.md)
-
+  * the URL to the deployed application with [Heroku and MongoDB Atlas.](../04-Important/MongoAtlas-Deploy.md)
 
   * the URL to the Github repository:
 
