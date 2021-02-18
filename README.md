@@ -26,6 +26,7 @@ When brought back online:
   - [Contributing](#Contributors)
   - [Tests](#Tests)
   - [Questions](#Issues)
+  - [Related Links](#Links)
 
 ## Story
 AS AN avid traveller
@@ -38,12 +39,13 @@ WHEN the user inputs a withdrawal or deposit
 THEN that will be shown on the page, and added to their transaction history when their connection is back online.
 
   ## Installation
-  💾  * 1.  Clone the repository to your local machine.
-      * 2.  Run a local MongoDB server.
-      * 3.  `cd` into the directory and run `npm install`
+  💾  
+  * 1.  Clone the repository to your local machine.
+  * 2.  Run a local MongoDB server.
+  * 3.  In your terminal, `cd` into the directory and run `npm install`.
 
   ## Usage
-  💻 `npm start` and open localhost:3000 in your favorite browser
+  💻 In your terminal, enter `npm start` and open localhost:3000 in your favorite browser.
   ## License
   ![badge](https://img.shields.io/badge/license-MIT-brightgreen)
   <br />
@@ -60,13 +62,13 @@ THEN that will be shown on the page, and added to their transaction history when
   ✉️ Email me with any questions: ashadria@gmail.com<br /><br />
     
 
-* Deploy your application with [Heroku and MongoDB Atlas.](../04-Important/MongoAtlas-Deploy.md)
+## Links
 
-## Related Links
-
-* You are required to submit the following:
+* Check out these related links:
 
   * the URL to the deployed application:
+* Deploy your application with [Heroku and MongoDB Atlas.](../04-Important/MongoAtlas-Deploy.md)
+
 
   * the URL to the Github repository:
 
