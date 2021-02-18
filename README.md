@@ -18,8 +18,8 @@ When brought back online:
 
   ## Table of Contents
   - [Description](#Description)
-  - [User Story](#UserStory)
-  - [Acceptance Criteria](#AcceptanceCriteria)
+  - [User Story](#Story)
+  - [Acceptance Criteria](#Criteria)
   - [Installation](#Installation)
   - [Usage](#Usage)
   - [License](#License)
@@ -27,20 +27,20 @@ When brought back online:
   - [Tests](#Tests)
   - [Questions](#Issues)
 
-## User Story
+## Story
 AS AN avid traveller
 I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
 SO THAT my account balance is accurate when I am traveling
 
-## Acceptance Criteria
+## Criteria
 GIVEN a user is on Budget App without an internet connection
 WHEN the user inputs a withdrawal or deposit
 THEN that will be shown on the page, and added to their transaction history when their connection is back online.
 
   ## Installation
-  💾  1.  Clone the repository to your local machine.
-      2.  Run a local MongoDB server.
-      3.  `cd` into the directory and run `npm install`
+  💾  * 1.  Clone the repository to your local machine.
+      * 2.  Run a local MongoDB server.
+      * 3.  `cd` into the directory and run `npm install`
 
   ## Usage
   💻 `npm start` and open localhost:3000 in your favorite browser
