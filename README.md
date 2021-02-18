@@ -17,15 +17,15 @@ When brought back online:
   * Offline entries should be added to tracker.
 
   ## Table of Contents
-  - [Description](#projectDescription)
-  - [User Story](#projectUserStory)
-  - [Acceptance Criteria](#projectAcceptanceCriteria)
-  - [Installation](#projectInstallation)
-  - [Usage](#projectUsage)
-  - [License](#projectLicense)
-  - [Contributing](#projectContributors)
-  - [Tests](#projectTests)
-  - [Questions](#projectIssues)
+  - [Description](#Description)
+  - [User Story](#UserStory)
+  - [Acceptance Criteria](#AcceptanceCriteria)
+  - [Installation](#Installation)
+  - [Usage](#Usage)
+  - [License](#License)
+  - [Contributing](#Contributors)
+  - [Tests](#Tests)
+  - [Questions](#Issues)
 
 ## User Story
 AS AN avid traveller
