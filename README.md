@@ -3,18 +3,6 @@
   <h1 align="center">Online/Offline Budget Tracker 👋</h1>
   
   ![badge](https://img.shields.io/badge/license-MIT-brightgreen)<br />
-  ## Description
-  🔍 Giving users a fast and easy way to track their money is important, but allowing them to access that information anytime is even more important. Having offline functionality is paramount to our applications success.  This Budget Tracker application uses Progressive Web Apps to allow for offline access and functionality.  The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
-
-  Offline Functionality:
-
-  * Enter deposits offline
-
-  * Enter expenses offline
-
-When brought back online:
-
-  * Offline entries should be added to tracker.
 
   ## Table of Contents
   - [Description](#Description)
@@ -28,6 +16,19 @@ When brought back online:
   - [Questions](#Issues)
   - [Related Links](#Links)
 
+  ## Description
+  🔍 Giving users a fast and easy way to track their money is important, but allowing them to access that information anytime is even more important. Having offline functionality is paramount to our applications success.  This Budget Tracker application uses Progressive Web Apps to allow for offline access and functionality.  The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
+
+  Offline Functionality:
+
+  * Enter deposits offline
+
+  * Enter expenses offline
+
+When brought back online:
+
+  * Offline entries should be added to tracker.
+
 ## Story
 AS AN avid traveller
 I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
@@ -40,9 +41,9 @@ THEN that will be shown on the page, and added to their transaction history when
 
   ## Installation
   💾  
-  * 1.  Clone the repository to your local machine.
-  * 2.  Run a local MongoDB server.
-  * 3.  In your terminal, `cd` into the directory and run `npm install`.
+  *   Clone the repository to your local machine.
+  *   Run a local MongoDB server.
+  *   In your terminal, `cd` into the directory and run `npm install`.
 
   ## Usage
   💻 In your terminal, enter `npm start` and open localhost:3000 in your favorite browser.
