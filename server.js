@@ -15,12 +15,23 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/budget", {
+const mongoURI = "mongodb+srv://dbUser:dbUser@cluster0.jtetc.mongodb.net/budget-tracker?retryWrites=true&w=majority"
+
+mongoose.connect(mongoURI || 'mongodb://localhost/budget',
+  {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+    useCreateIndex: true,
+    useFindAndModify: false
+  }
+);
+
+/* mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/budget", {
   useNewUrlParser: true,
   useFindAndModify: false,
   useCreateIndex: true,
   useUnifiedTopology: true,
-});
+}); */
 
 // routes
 app.use(require("./routes/api.js"));
