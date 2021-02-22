@@ -15,6 +15,7 @@
 - [Tests](#Tests)
 - [Questions](#Issues)
 - [Related Links](#Links)
+- [Screenshots](#Screenshots)
 
 ## Description
 🔍 Giving users a fast and easy way to track their money is important, but allowing them to access that information at any time is even more important.  Having offline functionality is paramount to our applications success.  This Budget Tracker application uses Progressive Web Apps to allow for offline access and functionality.  The user will be able to add expenses and deposits to their budget with or without a connection.  When entering transactions offline, they should populate the total when brought back online.
@@ -65,7 +66,7 @@ Find me on GitHub: [Adrian Ash](https://github.com/ashadria1)<br />
 
 ## Links
 
-* Check out these related links:
+Check out these related links:
 
 * URL to the deployed application with Heroku and MongoDB Atlas:
 
@@ -76,3 +77,8 @@ https://cryptic-river-48629.herokuapp.com/
 https://github.com/ashadria1/budget-tracker
 
 
+## Screenshots
+
+
+![Screenshot of main page.](assets/Screenshot1.png?raw=true "Screenshot of main page.")
+<br />
