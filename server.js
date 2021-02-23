@@ -15,9 +15,9 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-const mongoURI = "mongodb+srv://dbUser:dbUser@cluster0.jtetc.mongodb.net/budget-tracker?retryWrites=true&w=majority"
+/* const mongoURI = "mongodb server!" */
 
-mongoose.connect(mongoURI || 'mongodb://localhost/budget',
+mongoose.connect(MONGODB_URI || 'mongodb://localhost/budget',
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
