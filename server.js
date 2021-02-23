@@ -17,21 +17,12 @@ app.use(express.static("public"));
 
 /* const mongoURI = "mongodb server!" */
 
-mongoose.connect(MONGODB_URI || 'mongodb://localhost/budget',
-  {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-    useCreateIndex: true,
-    useFindAndModify: false
-  }
-);
-
-/* mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/budget", {
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/budget", {
   useNewUrlParser: true,
   useFindAndModify: false,
   useCreateIndex: true,
   useUnifiedTopology: true,
-}); */
+});
 
 // routes
 app.use(require("./routes/api.js"));
